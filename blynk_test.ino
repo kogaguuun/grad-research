@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPLFLu5SEVc"
-#define BLYNK_DEVICE_NAME "Quickstart Template"
-#define BLYNK_AUTH_TOKEN "2y8-9UkiBJ2d2twUZFQZmRWIq2_sSUM7"
+#define BLYNK_TEMPLATE_ID "your id"
+#define BLYNK_DEVICE_NAME "your name"
+#define BLYNK_AUTH_TOKEN "your token"
 
 // Comment this out to disable prints and save space
 #define BLYNK_PRINT Serial
@@ -15,8 +15,8 @@
 TinyGPSPlus gps;
 HardwareSerial GPSRaw(2);  
 //IFTTTテスト
-String makerEvent ="GPS_get";
-String makerKey ="c2N68fnao6L877d2KpIc_S";
+String makerEvent ="your Event";
+String makerKey ="your key";
 const char* server = "maker.ifttt.com"; 
 WiFiClient client;
 
@@ -25,8 +25,8 @@ char auth[] = BLYNK_AUTH_TOKEN;
 // Your WiFi credentials.
 // Set password to "" for open networks.
 
-char ssid[] = "KeiyoWi-FiRouter-16b7ec";
-char pass[] = "1234567890";
+char ssid[] = "your ssid";
+char pass[] = "your pass";
 //char ssid[]="dsfree-g";
 //char pass[] = "";
 BlynkTimer timer;
